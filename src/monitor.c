@@ -6,12 +6,11 @@
 /*   By: aguennac <aguennac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 16:01:31 by aguennac          #+#    #+#             */
-/*   Updated: 2026/07/25 16:01:32 by aguennac         ###   ########.fr       */
+/*   Updated: 2026/07/25 17:02:39 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "codexion.h"
-
 
 static int	check_coder(t_table *t, int i, int *done)
 {
@@ -52,7 +51,6 @@ static int	check_end(t_table *t)
 	pthread_mutex_unlock(&t->print);
 	return (done);
 }
-
 
 void	*monitor_routine(void *arg)
 {

@@ -6,7 +6,7 @@
 /*   By: aguennac <aguennac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 16:01:40 by aguennac          #+#    #+#             */
-/*   Updated: 2026/07/25 16:01:41 by aguennac         ###   ########.fr       */
+/*   Updated: 2026/07/25 17:02:28 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ int	sim_over(t_table *t)
 	pthread_mutex_unlock(&t->state);
 	return (over);
 }
-
 
 void	log_state(t_coder *c, char *msg)
 {

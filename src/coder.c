@@ -6,12 +6,11 @@
 /*   By: aguennac <aguennac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 16:01:07 by aguennac          #+#    #+#             */
-/*   Updated: 2026/07/25 16:01:09 by aguennac         ###   ########.fr       */
+/*   Updated: 2026/07/25 17:02:03 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "codexion.h"
-
 
 static void	set_dongles(t_coder *c, t_dongle **first, t_dongle **second)
 {
@@ -33,7 +32,6 @@ static void	set_dongles(t_coder *c, t_dongle **first, t_dongle **second)
 		*second = &t->dongles[left];
 	}
 }
-
 
 static void	*lone_coder(t_coder *c, t_dongle *d)
 {

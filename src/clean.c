@@ -6,12 +6,11 @@
 /*   By: aguennac <aguennac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 16:01:14 by aguennac          #+#    #+#             */
-/*   Updated: 2026/07/25 16:01:16 by aguennac         ###   ########.fr       */
+/*   Updated: 2026/07/25 17:01:55 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "codexion.h"
-
 
 void	broadcast_all(t_table *t)
 {
@@ -26,7 +25,6 @@ void	broadcast_all(t_table *t)
 		i++;
 	}
 }
-
 
 int	kill_started(t_table *t, int count)
 {

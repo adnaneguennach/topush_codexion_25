@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: aguennac <aguennac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/07/04 12:00:00 by aguennac            #+#    #+#             */
-/*   Updated: 2026/07/25 11:01:27 by aguennac         ###   ########.fr       */
+/*   Created: 2026/07/25 17:03:17 by aguennac          #+#    #+#             */
+/*   Updated: 2026/07/25 17:03:19 by aguennac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
 # include <stdlib.h>
 # include <string.h>
 # include <limits.h>
-
 
 typedef struct s_request
 {
